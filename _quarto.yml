@@ -12,7 +12,7 @@ website:
         text: About
       - href: projects/projects.qmd
         text: Projects
-      - href: blog/index.qmd
+      - href: blog/blog.qmd
         text: Blog
   search: false
   google-analytics: 

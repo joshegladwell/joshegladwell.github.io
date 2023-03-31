@@ -1,0 +1,15 @@
+---
+title: "About"
+image: profile_pic.jpeg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/joshua-gladwell/
+    - icon: github
+      text: Github
+      href: https://github.com/joshegladwell
+---
+
+About this blog

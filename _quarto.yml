@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Joshua Gladwell"
@@ -7,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: blog/about.qmd
+      - href: about.qmd
         text: About
       - href: projects/projects.qmd
         text: Projects

@@ -15,7 +15,8 @@ website:
       - href: blog/index.qmd
         text: Blog
   search: false
-  google-analytics: "G-6DPLBLTB6E"
+  google-analytics: 
+    tracking-id: "G-6DPLBLTB6E"
 
 format:
   html:

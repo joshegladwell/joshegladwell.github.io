@@ -17,6 +17,9 @@ website:
   search: false
   google-analytics: 
     tracking-id: "G-6DPLBLTB6E"
+  cookie-consent:
+    type: implied
+    style: headline
 
 format:
   html:

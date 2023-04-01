@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome! This website serves as a portfolio for my work in data science. It is still under construction, so please be patient as I work on it."
   },
   {
     "objectID": "projects/projects.html",
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Analyzing Writings of Leo Tolstoy\n\n\nPersonal project using NLP methods to draw conclusions about the literature and personal writings of Leo Tolstoy in the original Russian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisogyny Detection in Spanish News Articles\n\n\nA master’s level final project using neural networks to detect misogynistic sentiment in text from tweets and news articles\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSchool Shootings in the United States\n\n\nA semester-long master’s level project using machine learning methods to draw conclusions about the nature of school shootings in the United States\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzing Gendered Speech in U.S. Congress\n\n\nUndergraduate senior thesis project examining the skewness of gendered speech used by U.S. Congress in session\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/post-with-code/index.html",
@@ -23,9 +23,9 @@
   {
     "objectID": "blog/posts/welcome/index.html",
     "href": "blog/posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Welcome to Musings: A Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Cherry blossoms near Tidal Basin in Washington, DC\n\n\n\nIntroducing my new blog\nWelcome to Musings: A Blog! My hope for this blog is to have a place where I can do mini data science projects on anything that interests me. Although I expect the content of this blog to have some level of technicality (for example, building machine learning models and cleaning messy datasets), I plan to use this blog as a more writing-heavy medium. As much as possible, I want it to be an outlet for my creativity more than a scientific project.\nWithout spoiling too much, some of my ideas for future blog posts include examination of DC’s famous cherry blossoms, features of LEGO Star Wars sets, water levels of the Great Salt Lake, and dialogue from my favorite show, Twin Peaks.\nI expect that the frequency of my posts will be highly irregular as I am working towards my master’s degree in data science and analytics for the next year, but my goal for now is to release at least one post every few months. This project is more for myself than for anyone else, but anybody is more than welcome to join me in my musings!"
   },
   {
     "objectID": "blog/index.html",
@@ -46,7 +46,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "About me"
   },
   {
     "objectID": "projects/project_summaries/post-with-code/index.html",
@@ -67,6 +67,27 @@
     "href": "blog/blog.html",
     "title": "Musings: A Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to Musings: A Blog\n\n\n\n\n\n\n\nmeta\n\n\n\n\nThis is the first post of my new blog, where I write about my musings\n\n\n\n\n\n\nMar 31, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project_summaries/congress/index.html",
+    "href": "projects/project_summaries/congress/index.html",
+    "title": "Analyzing Gendered Speech in U.S. Congress",
+    "section": "",
+    "text": "For my senior capstone project in my undergrad, I worked on a project with the Brigham Young University History Department 1 analyzing different aspects of the speech Congress has used in sessions ranging from … The purpose of this project was to eventually publish research around the things that Congress focuses on in session.\nMy main contribution to this project involved creating visualizations to show the extent to which Congress uses gendered speech."
+  },
+  {
+    "objectID": "projects/project_summaries/congress/index.html#this-description-is-still-in-process",
+    "href": "projects/project_summaries/congress/index.html#this-description-is-still-in-process",
+    "title": "Analyzing Gendered Speech in U.S. Congress",
+    "section": "This description is still in process",
+    "text": "This description is still in process"
+  },
+  {
+    "objectID": "projects/project_summaries/congress/index.html#this-draft-is-still-in-process",
+    "href": "projects/project_summaries/congress/index.html#this-draft-is-still-in-process",
+    "title": "Analyzing Gendered Speech in U.S. Congress",
+    "section": "This draft is still in process",
+    "text": "This draft is still in process"
   }
 ]

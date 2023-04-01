@@ -12,4 +12,4 @@ about:
       href: https://github.com/joshegladwell
 ---
 
-About this blog
+About me

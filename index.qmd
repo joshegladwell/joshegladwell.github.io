@@ -2,10 +2,4 @@
 title: "Home"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Welcome! This website serves as a portfolio for my work in data science. It is still under construction, so please be patient as I work on it.

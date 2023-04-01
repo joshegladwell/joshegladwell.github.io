@@ -21,8 +21,6 @@ website:
 format:
   html:
     theme: cosmo
+    mainfont: Optima
     css: styles.css
     toc: true
-
-editor: visual
-

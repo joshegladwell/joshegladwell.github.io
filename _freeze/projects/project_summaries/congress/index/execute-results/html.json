@@ -1,0 +1,14 @@
+{
+  "hash": "e52c0aaf91f6256fd316f91a2632a010",
+  "result": {
+    "markdown": "---\ntitle: \"Analyzing Gendered Speech in U.S. Congress\"\nimage: \"congress.png\"\ndescription: \"Undergraduate senior thesis project examining the skewness of gendered speech used by U.S. Congress in session\"\n---\n\n\nFor my senior capstone project in my undergrad, I worked on a project with the Brigham Young University History Department [^1] analyzing different aspects of the speech Congress has used in sessions ranging from ... The purpose of this project was to eventually publish research around the things that Congress focuses on in session.\n\nMy main contribution to this project involved creating visualizations to show the extent to which Congress uses gendered speech.\n\n## This description is still in process\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n\n\n[^1]: Grant Madsen",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,12 +1,18 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2023-03-28"
-categories: [news]
+title: "Welcome to *Musings: A Blog*"
+date: "2023-03-31"
+categories: [meta]
+description: "This is the first post of my new blog, where I write about my musings"
+toc: false
 ---
 
-This is the first post in a Quarto blog. Welcome!
+![Cherry blossoms near Tidal Basin in Washington, DC](cherry_blossoms.png)
 
-![](thumbnail.jpg)
+# Introducing my new blog
+Welcome to *Musings: A Blog*! My hope for this blog is to have a place where I can do mini data science projects on anything that interests me. Although I expect the content of this blog to have some level of technicality (for example, building machine learning models and cleaning messy datasets), I plan to use this blog as a more writing-heavy medium. As much as possible, I want it to be an outlet for my creativity more than a scientific project.
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Without spoiling too much, some of my ideas for future blog posts include examination of DC's famous cherry blossoms, features of LEGO *Star Wars* sets, water levels of the Great Salt Lake, and dialogue from my favorite show, *Twin Peaks*.
+
+I expect that the frequency of my posts will be highly irregular as I am working towards my master's degree in data science and analytics for the next year, but my goal for now is to release at least one post every few months. This project is more for myself than for anyone else, but anybody is more than welcome to join me in my musings!
+
+

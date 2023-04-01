@@ -1,0 +1,5 @@
+---
+title: "Analyzing Writings of Leo Tolstoy"
+image: "tolstoy.png"
+description: "Personal project using NLP methods to draw conclusions about the literature and personal writings of Leo Tolstoy in the original Russian"
+---

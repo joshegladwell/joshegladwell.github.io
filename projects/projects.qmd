@@ -3,7 +3,7 @@ title: "Projects"
 listing:
   contents: project_summaries
   sort: "date desc"
-  type: default
+  type: grid
   categories: false
   sort-ui: false
   filter-ui: false

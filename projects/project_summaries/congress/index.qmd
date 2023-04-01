@@ -1,0 +1,13 @@
+---
+title: "Analyzing Gendered Speech in U.S. Congress"
+image: "congress.png"
+description: "Undergraduate senior thesis project examining the skewness of gendered speech used by U.S. Congress in session"
+---
+
+For my senior capstone project in my undergrad, I worked on a project with the Brigham Young University History Department [^1] analyzing different aspects of the speech Congress has used in sessions ranging from ... The purpose of this project was to eventually publish research around the things that Congress focuses on in session.
+
+[^1]: Grant Madsen
+
+My main contribution to this project involved creating visualizations to show the extent to which Congress uses gendered speech.
+
+## This draft is still in process

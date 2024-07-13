@@ -8,12 +8,7 @@
   },
   {
     "listing": "/projects/projects.html",
-    "items": [
-      "/projects/project_summaries/tolstoy/index.html",
-      "/projects/project_summaries/misogyny_detection/index.html",
-      "/projects/project_summaries/school_shootings/index.html",
-      "/projects/project_summaries/congress/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/blog/blog.html",

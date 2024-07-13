@@ -11,7 +11,7 @@
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Analyzing Writings of Leo Tolstoy\n\n\nPersonal project using NLP methods to draw conclusions about the literature and personal writings of Leo Tolstoy in the original Russian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisogyny Detection in Spanish News Articles\n\n\nA master’s level final project using neural networks to detect misogynistic sentiment in text from tweets and news articles\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSchool Shootings in the United States\n\n\nA semester-long master’s level project using machine learning methods to draw conclusions about the nature of school shootings in the United States\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalyzing Gendered Speech in U.S. Congress\n\n\nUndergraduate senior thesis project examining the skewness of gendered speech used by U.S. Congress in session\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Decline of the Great Salt Lake\n\n\nA data visualization-based approach to exploring the story of the Great Salt Lake and the ramifications for its rapid decline.\n\n\n\nMay-2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSchool Shootings in the United States\n\n\nA semester-long master’s level project using machine learning methods to draw conclusions about the nature of school shootings in the United States\n\n\n\nJan-2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/post-with-code/index.html",
@@ -89,5 +89,12 @@
     "title": "Analyzing Gendered Speech in U.S. Congress",
     "section": "This draft is still in process",
     "text": "This draft is still in process"
+  },
+  {
+    "objectID": "projects/project_summaries/congress/index.html#footnotes",
+    "href": "projects/project_summaries/congress/index.html#footnotes",
+    "title": "Analyzing Gendered Speech in U.S. Congress",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nGrant Madsen↩︎"
   }
 ]

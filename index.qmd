@@ -1,5 +1,17 @@
 ---
 title: "Home"
+image: profile_pic.jpeg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/joshua-gladwell/
+      target: _blank
+    - icon: github
+      text: Github
+      href: https://github.com/joshegladwell
+      target: _blank
 ---
 
 Welcome! This website serves as a portfolio for my work in data science. It is still under construction, so please be patient as I work on it.

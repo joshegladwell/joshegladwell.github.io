@@ -2,6 +2,7 @@
 title: "Home"
 image: profile_pic.jpeg
 about:
+  image-shape: rounded
   template: jolla
   links:
     - icon: linkedin

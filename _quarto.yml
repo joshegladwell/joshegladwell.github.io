@@ -4,8 +4,10 @@ project:
 
 website:
   navbar:
-    logo: ./logo.svg
+    logo: ./assets/logo/logo_light.svg
     logo-alt: "Joshua Gladwell"
+    foreground: '#6096B4'
+    background: '#EDE9DC'
     left:
       - href: index.qmd
         text: Home
@@ -14,7 +16,7 @@ website:
       - href: blog/blog.qmd
         text: Blog
   search: false
-  favicon: ./logo.svg
+  favicon: ./logo_light.svg
   google-analytics: 
     tracking-id: "G-6DPLBLTB6E"
 

@@ -8,6 +8,7 @@ website:
     logo-alt: "Joshua Gladwell"
     foreground: '#6096B4'
     background: '#EDE9DC'
+    pinned: true
     left:
       - href: index.qmd
         text: Home

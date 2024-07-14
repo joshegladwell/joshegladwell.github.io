@@ -1,11 +1,9 @@
 /* css styles */
+
+/* navbar */
 .navbar-logo {
     max-height: 3em;
   }
-
-/* a.nav-link.active {
-  text-decoration: underline;
-} */
 
 .navbar-dark, .navbar[data-bs-theme=dark] {
   --bs-navbar-color: #6096B4;
@@ -25,4 +23,13 @@
 .nav-item {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+/* page content */
+p.subtitle.lead {
+  text-align: center;
+}
+
+#quarto-document-content {
+  text-align: left;
 }

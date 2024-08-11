@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Support Vector Machine</title>
+
+        <!-- point to css stylesheet -->
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+
+
+    <body>
+        <div class="header">
+            <div class="header-center">
+                <a class="logo" href="../index.html">jg</a>
+            </div>
+            <div class="header-sub">
+                Joshua Gladwell
+            </div>
+            <div class="header-tabs">
+                <a href="./about_me.html">About Me</a>
+                <a href="https://github.com/anly501/anly-501-project-joshegladwell" target="_blank">Code</a>
+                <a href="https://github.com/anly501/anly-501-project-joshegladwell/tree/main/data" target="_blank">Data</a>
+                <a href="./introduction.html">Introduction</a>
+                <a href="./data_gathering.html">Data Gathering</a>
+                <a href="./data_cleaning.html">Data Cleaning</a>
+                <a href="./exploring_data.html">Exploring Data</a>
+                <a href="./naive_bayes.html">Na&iuml;ve Bayes</a>
+                <a href="./decision_trees.html">Decision Trees</a>
+                <a href="./svm.html">SVM</a>
+                <a href="./clustering.html">Clustering</a>
+                <a href="./arm_networking.html">ARM and Networking</a>
+                <a href="./conclusions.html">Conclusions</a>
+            </div>
+        </div>
+        <div class="text">
+            <h1>Support Vector Machine (SVM)</h1>
+            <h2>Introduction</h2>
+            <p>The SVM model approaches classification problems by finding optimal hyperplanes in high-dimensional space that separate the observed classes in the data. Because SVM is primarily a binary classification method, we can adapt it to classifying multiple classes in the data by creating several hyperplanes with a One vs One approach or One vs All.</p>
+
+            <h2>Class Distribution</h2>
+            <p>In this section, we take the same task as in the Naive Bayes section of predicting the level of news coverage for a given school shooting incident based on the school's education level (Elementary, Middle, High), racial demographics, and number of fatalities. With this data, we hope to predict the level of media coverage the incident received (Local, Regional, National, or International). After we import our data, we check the balance of labels in our dataset.</p>
+
+            <table class="center-table">
+                <tr>
+                    <th></th>
+                    <th>Count</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <th>Local</th>
+                    <td>56</td>
+                    <td>66.7%</td>
+                </tr>
+                <tr>
+                    <th>Regional</th>
+                    <td>8</td>
+                    <td>9.5%</td>
+                </tr>
+                <tr>
+                    <th>National</th>
+                    <td>15</td>
+                    <td>17.9%</td>
+                </tr>
+                <tr>
+                    <th>International</th>
+                    <td>5</td>
+                    <td>5.9%</td>
+                </tr>
+            </table>
+
+            <p>We can see here that the classes are not well-balanced at all. This may be detrimental to the eventual performance of the model.</p>
+
+            <h2>Feature Selection</h2>
+            <p>Because we approached an identical problem to this one in the Naive Bayes section, we can use the preprocessed data from that section for this section. However, one change we will make is to drop the columns for the percent of Black, Hispanic, and Asian students in the school. The reason for this is that there is inherent multicollinearity with these columns and the percent of white students in the school. Thus, they deliver roughly the same information and may be dropped.</p>
+
+            <h2>Model Tuning</h2>
+            <p>Here we will train an SVM model using linear kernels, polynomial kernels, RBF kernels, and sigmoid kernels. We will accept the model that performs best among these options.</p>
+            <img src="../images/svm/cm_linear.png" width="1200">
+            <img src="../images/svm/cm_poly.png" width="1200">
+            <img src="../images/svm/cm_rbf.png" width="1200">
+            <img src="../images/svm/cm_sigmoid.png" width="1200">
+
+            <h2>Final Results</h2>
+            <p>Unfortunately, all of these approaches perform roughly the same. They primarily favor prediction that the incident was locally covered. This is almost certainly due to the imbalance of classes that we see above.</p>
+
+            <h2>Conclusions</h2>
+            <p>All in all, this analysis isn't very informative. This is likely due to the low quality of data. It would be worthwhile in future work to return to this modeling approach with a cleaner, more balanced dataset.</p>
+        </div>
+    </body>
+</html>

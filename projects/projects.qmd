@@ -5,12 +5,12 @@ listing:
     - title: "School Shootings in the United States"
       image: "./imgs/school_shootings.png"
       date: 2023-01-01
-      path: "http://gladwell.georgetown.domains/501-project-website/index.html"
+      path: "https://joshegladwell.github.io/projects/us-school-shootings/"
       description: "A semester-long master's level project using machine learning methods to draw conclusions about the nature of school shootings in the United States"
     - title: "Decline of the Great Salt Lake"
       image: "./imgs/lake.jpg"
       date: 2023-05-01
-      path: "http://gladwell.georgetown.domains/anly503/_site/"
+      path: "https://joshegladwell.github.io/projects/decline-great-salt-lake/"
       description: "A data visualization-based approach to exploring the story of the Great Salt Lake and the ramifications for its rapid decline"
   sort: "date desc"
   type: grid

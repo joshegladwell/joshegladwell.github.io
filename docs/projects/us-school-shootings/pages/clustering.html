@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Clustering</title>
+
+        <!-- point to css stylesheet -->
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+
+
+    <body>
+        <div class="header">
+            <div class="header-center">
+                <a class="logo" href="../index.html">jg</a>
+            </div>
+            <div class="header-sub">
+                Joshua Gladwell
+            </div>
+            <div class="header-tabs">
+                <a href="./about_me.html">About Me</a>
+                <a href="https://github.com/anly501/anly-501-project-joshegladwell" target="_blank">Code</a>
+                <a href="https://github.com/anly501/anly-501-project-joshegladwell/tree/main/data" target="_blank">Data</a>
+                <a href="./introduction.html">Introduction</a>
+                <a href="./data_gathering.html">Data Gathering</a>
+                <a href="./data_cleaning.html">Data Cleaning</a>
+                <a href="./exploring_data.html">Exploring Data</a>
+                <a href="./naive_bayes.html">Na&iuml;ve Bayes</a>
+                <a href="./decision_trees.html">Decision Trees</a>
+                <a href="./svm.html">SVM</a>
+                <a href="./clustering.html">Clustering</a>
+                <a href="./arm_networking.html">ARM and Networking</a>
+                <a href="./conclusions.html">Conclusions</a>
+            </div>
+        </div>
+        <div class="text">
+            <h1>Clustering</h1>
+            
+            <h2>Introduction</h2>
+            <p>All of our previous analysis of tweets relating to school shootings have been limited to tweets containing hashtags. We operated under the assumption that a hashtag could act as a proxy for a label by grouping hashtags commonly associated with news tweets and grouping hashtags commonly associated with tweets expressing opinions. Clearly this approach has several shortcomings--most notably the lack of practical significance.</p>
+            <p>In this analysis, we will perform clustering to identify groups in the tweets that hopefully transcend the less-interesting binary classification of tweets as being news-oriented or opinion-oriented. We expect that our clustering analysis will split tweets by their emotional sentiment (perhaps empathetic/critical) or by their political orientation (tighter gun laws / looser gun laws).</p>
+
+            <h2>Theory</h2>
+            <p>Clustering is a field of unsupervised machine learning that groups observations in data based on how closely they are located to each other. As a brief introduction, we discuss a few different clustering techniques below:</p>
+
+            <h3>K-Means</h3>
+            <p>Not to be confused with K Nearest Neighbors, K-Means is a clustering algorithm that accepts a parameter $K$ determining the number of clusters to identify in the data. For each cluster, a centroid is determined which serves as the arbitrary center of the cluster. The centroid can be calculated using mean, median, or other metrics to determine the center of the observations.</p>
+            <p>The algorithm begins by selecting K random arbitrary centroids in the space. From there, it iteratively updates to represent the optimal center for K clusters in the dataset based on some distance metric (usually Euclidean distance). Once the iterations no longer update the centroids, the centroids are considered to have converged.</p>
+            <p>K-Means clustering is ideal for clustering data that follow a Gaussian distribution. Gaussian distributions appear as a circle or oval in 2-dimensional space and as spherical or ovaline clouds in 3-dimensional space. Dimensions greater than three can be difficult to visualize, so often the best approach for determining the optimal clustering algorithm is to try multiple ones.</p>
+
+            <h3>Density-Based Spatial Clustering of Applications with Noise (DBSCAN)</h3>
+            <p>DBSCAN is an alternative clustering algorithm that is based on grouping observations by their density. In this case, density refers to the concentration of observations in a relatively small area of the space. In DBSCAN, outliers are omitted from clusters because they are, by definition, isolated from high-density clusters of data.</p>
+            <p>The fundamental difference between DBSCAN and K-Means is that DBSCAN is very good at identifying clusters of data that are not linear / do not follow a Gaussian distribution. Consider the graphic below, published by Scikit Learn, illustrating the results of various clustering algorithms on toy datasets of different shapes.</p>
+            <img src="../images/clustering/scikit-learn_clustering.png" width="1200">
+            <p>As we can see, DBSCAN is much better at clustering irregular shapes than K-Means.</p>
+
+            <h3>Hierarchical Clustering</h3>
+            <p>Hierarchical clustering, unlike the clustering algorithms defined above (which are considered partitional clustering algorithms), is an approach to clustering that assigns data to different "sub-clusters" at different levels of the hierarchy. For example, at the highest levels, the data are separated into few clusters, but the clusters are large. At the lower levels of the hierarchy, the clusters get smaller but are more plentiful.</p>
+            <p>Oftentimes, the size and number of clusters at each hierarchy can effectively be illustrated in a dendrogram. This approach allows the user to determine the optimal number/size of clusters "at a glance"--depending on the use case of the analysis.</p>
+
+            <h2>Methods</h2>
+            <h3>Data Selection</h3>
+            <p>Because we do not consider any labels in clustering, we are free to use the entire set of tweets in this analysis. Using <a href="https://github.com/anly501/anly-501-project-joshegladwell/blob/main/codes/07-clustering/bow_generator.py" target="_blank">this</a> Python script, we attempt to create a bag of words model for a random selection of 50,000 tweets (rather than only tweets with hashtags). However, due to computing limitations we will settle for the same BOW model that we have used in our previous analyses.</p>
+
+            <h3>Hyper-parameter tuning</h3>
+            <p>Using K-Means, we arrive at the following graphs for determining the optimal K number of clusters for our Twitter data. Using the elbow method, we determine that an optimal number of clusters, based on the distortions and inertia of the model, is K=7.</p>
+            <table class="center-table">
+                <tr>
+                    <th>Cluster</th>
+                    <th>Distortion</th>
+                    <th>Inertia</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3.646</td>
+                    <td>562,647</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3.595</td>
+                    <td>548,418</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3.558</td>
+                    <td>540,262</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>3.546</td>
+                    <td>533,720</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>3.506</td>
+                    <td>525,581</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>3.495</td>
+                    <td>519,913</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>3.450</td>
+                    <td>510,538</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>3.457</td>
+                    <td>510,362</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>3.436</td>
+                    <td>507,861</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>3.425</td>
+                    <td>504,381</td>
+                </tr>
+            </table>
+            <img src="../images/clustering/elbow-graph.png" width="1200">
+
+            <h3>Final results</h3>
+            <p>We now perform a final clustering using our optimal K and save our results. Using this optimal model, we can see below the number of tweets that the algorithm assigns to each cluster. By itself, this isn't terribly insightful, but it may provide more insight once we identify the possible patterns behind the clusters.</p>
+            <img src="../images/clustering/cluster_counts.png" width="1200">
+
+            <h2>Results</h2>
+            <p>Perhaps one of the most insightful observatios we can make about the clusters is how they compare to the hashtag-based labels that we used for the Na&iuml;ve Bayes algorithm. Do the clusters act as subcategories within the scope of news vs opinion tweets? Or is there more overlap?</p>
+            <img src="../images/clustering/cluster_counts_bylabel.png" width="1200">
+            <p>As we can see, there is indeed very heavy overlap between the clusters assigned by K-Means and the hashtag-based News/Opinion labels. Cluster 3 seems to be very strongly correlated with the opinion-based tweets while Cluster 7 seems to be correlated with news-based tweets.</p>
+            <p>At a later date, we will return to this analysis and examine the clusters at a much closer level to identify any patterns distinguishing the clusters aside from the news vs. opinion distinction.</p>
+
+            <h2>Conclusions</h2>
+            <p>Unlike most of the previous analytical approaches of this project (Na&iuml;ve Bayes, Decision Trees, and SVM) in which we try to make predictions about the data, this section attempts to learn more about the data without any associated predictions. In truth, this project is best suited for this sort of non-predictive analysis. It allows us to gain insights about the data, which is the main goal of this project.</p>
+            <p>This analysis further validated the results of the Na&iuml;ve Bayes algorithm by confirming the assumptions behind labeling tweets as being opinion-based or news-based depending on their hashtags. A possible next step for this analysis would be to cluster all 2.5 million tweets and track the levels of how many tweets occur in each cluster over time.</p>
+
+            <h2>References</h2>
+            <ol>
+                <li>Clustering algorithm performance by dataset shape chart is taken from <a href="https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html" target="_blank">Scikit Learn's website</a>.</li>
+            </ol>
+        </div>
+    </body>
+</html>

@@ -8,7 +8,7 @@ cp assets/after_render_insert/ads.txt docs/ads.txt
 echo "ads.txt added to root directory"
 
 # Copy projects into website
-cp -r assets/after_render_insert/projects/decline-great-salt-lake docs/projects/
+cp -rf assets/after_render_insert/projects/decline-great-salt-lake docs/projects/
 echo "decline-great-salt-lake added to projects"
-cp -r assets/after_render_insert/projects/us-school-shootings docs/projects/
+cp -rf assets/after_render_insert/projects/us-school-shootings docs/projects/
 echo "us-school-shootings added to projects"

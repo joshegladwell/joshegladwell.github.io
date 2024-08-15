@@ -1,15 +1,15 @@
 ---
-title: "Welcome to *Musings: A Blog*"
+title: "Welcome to *Untitled Blog*"
 date: "2023-03-31"
 categories: [meta]
-description: "This is the first post of my new blog, where I write about my musings"
+description: "This is the first post of my new blog"
 toc: false
 ---
 
 ![Cherry blossoms near Tidal Basin in Washington, DC](cherry_blossoms.png)
 
 # Introducing my new blog
-Welcome to *Musings: A Blog*! My hope for this blog is to have a place where I can do mini data science projects on anything that interests me. Although I expect the content of this blog to have some level of technicality (for example, building machine learning models and cleaning messy datasets), I plan to use this blog as a more writing-heavy medium. As much as possible, I want it to be an outlet for my creativity more than a scientific project.
+Welcome to my blog! My hope for this blog is to have a place where I can do mini data science projects on anything that interests me. Although I expect the content of this blog to have some level of technicality (for example, building machine learning models and cleaning messy datasets), I plan to use this blog as a more writing-heavy medium. As much as possible, I want it to be an outlet for my creativity more than a scientific project.
 
 Without spoiling too much, some of my ideas for future blog posts include examination of DC's famous cherry blossoms, features of LEGO *Star Wars* sets, water levels of the Great Salt Lake, and dialogue from my favorite show, *Twin Peaks*.
 

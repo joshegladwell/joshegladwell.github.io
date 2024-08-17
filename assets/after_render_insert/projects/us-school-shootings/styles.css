@@ -53,29 +53,6 @@
     margin-bottom: 20px;
 }
 
-/* Header to link back to portfolio website */
-.home-header {
-    position: fixed;
-    background-color: #EDE9DC;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-}
-
-.home-header a {
-    color: #1c46a3;
-    font-size: 14pt;
-    padding: 15px;
-    text-decoration: none;
-    font-family: 'Optima';
-
-}
-
-.push-down {
-    padding: 8px 0;
-}
-
-
 /* Website body */
 .text {
     font-family: 'Optima';

@@ -24,7 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<link href=".././assets/logo/logo_light.svg" rel="icon" type="image/svg+xml">
+<link href=".././assets/logo/logo_green_white.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -62,9 +62,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-date","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -132,7 +132,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src=".././assets/logo/logo_light.svg" alt="Joshua Gladwell" class="navbar-logo">
+    <img src=".././assets/logo/logo_white.svg" alt="Joshua Gladwell" class="navbar-logo">
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -178,11 +178,11 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1682913600000">
-<a href="https://joshegladwell.github.io/projects/decline-great-salt-lake/" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1682913600000" data-listing-file-modified-sort="1723859644598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2389" data-listing-word-count-sort="477639">
+<a href="../projects/pages/decline-great-salt-lake/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./imgs/lake.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../projects/imgs/lake.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -191,7 +191,10 @@ Decline of the Great Salt Lake
 <div class="card-text listing-description">
 A data visualization-based approach to exploring the story of the Great Salt Lake and the ramifications for its rapid decline
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
 May-2023
 </div>
@@ -201,7 +204,7 @@ May-2023
 </a>
 </div>
 <div class="g-col-1" data-index="1" data-listing-date-sort="1672549200000">
-<a href="https://joshegladwell.github.io/projects/us-school-shootings/" class="quarto-grid-link">
+<a href="https://joshegladwell.github.io/us-school-shootings/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./imgs/school_shootings.png" class="thumbnail-image card-img" style="height: 150px;">

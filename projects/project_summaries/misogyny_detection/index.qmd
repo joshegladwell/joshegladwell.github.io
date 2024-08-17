@@ -1,6 +1,0 @@
----
-title: "Misogyny Detection in Spanish News Articles"
-image: "misogyny.png"
-description: "A master's level final project using neural networks to detect misogynistic sentiment in text from tweets and news articles"
----
-

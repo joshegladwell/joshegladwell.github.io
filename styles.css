@@ -5,7 +5,7 @@
     max-height: 3em;
   }
 
-.navbar-dark, .navbar[data-bs-theme=dark] {
+/* .navbar-dark, .navbar[data-bs-theme=dark] {
   --bs-navbar-color: #6096B4;
   --bs-navbar-hover-color: #1c46a3;
   --bs-navbar-disabled-color: #6096B4;
@@ -14,7 +14,7 @@
   --bs-navbar-brand-hover-color: #6096B4;
   --bs-navbar-toggler-border-color: rgba(96, 150, 180, 0);
   --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%236096B4' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-}
+} */
 
 #navbarCollapse {
   padding-left: 2.5%

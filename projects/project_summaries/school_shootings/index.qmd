@@ -1,6 +1,0 @@
----
-title: "School Shootings in the United States"
-image: "school_shootings.png"
-path: "http://gladwell.georgetown.domains/501-project-website/index.html"
-description: "A semester-long master's level project using machine learning methods to draw conclusions about the nature of school shootings in the United States"
----

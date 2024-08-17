@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  navbar:
+    logo: ./assets/logo_white.svg
+    logo-alt: "Joshua Gladwell"
+    foreground: 'white'
+    background: '#275F58'
+    pinned: true
+    left:
+      - href: 'https://joshegladwell.github.io'
+        text: Home
+      - href: 'https://joshegladwell.github.io/projects/projects.html'
+        text: Projects
+      - href: 'https://joshegladwell.github.io/blog/blog.html'
+        text: Blog
+  search: false
+  favicon: ./assets/logo_light.svg
+  google-analytics: 
+    tracking-id: "G-6DPLBLTB6E"
+
+format:
+  html:
+    theme: cosmo
+    mainfont: Optima
+    css: styles.css
+    toc: true
+    embed-resources: true
+

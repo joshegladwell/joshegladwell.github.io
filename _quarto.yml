@@ -4,10 +4,10 @@ project:
 
 website:
   navbar:
-    logo: ./assets/logo/logo_light.svg
+    logo: ./assets/logo/logo_white.svg
     logo-alt: "Joshua Gladwell"
-    foreground: '#6096B4'
-    background: '#EDE9DC'
+    foreground: 'white'
+    background: '#275F58'
     pinned: true
     left:
       - href: index.qmd
@@ -17,7 +17,7 @@ website:
       - href: blog/blog.qmd
         text: Blog
   search: false
-  favicon: ./assets/logo/logo_light.svg
+  favicon: ./assets/logo/logo_green_white.svg
   google-analytics: 
     tracking-id: "G-6DPLBLTB6E"
 

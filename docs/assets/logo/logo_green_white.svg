@@ -8,10 +8,10 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
-   sodipodi:docname="logo_gsl.svg"
-   inkscape:export-filename="/Users/joshgladwell/Documents/Website/img/logo_dark.png"
-   inkscape:export-xdpi="500"
-   inkscape:export-ydpi="500"
+   sodipodi:docname="logo_green_white.svg"
+   inkscape:export-filename="/Users/joshgladwell/Documents/Website/joshegladwell.github.io/assets/logo/icon_green_white.png"
+   inkscape:export-xdpi="206.375"
+   inkscape:export-ydpi="206.375"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.96295858"
-     inkscape:cx="1.0384663"
-     inkscape:cy="53.481012"
+     inkscape:zoom="2.126887"
+     inkscape:cx="42.785535"
+     inkscape:cy="60.887107"
      inkscape:window-width="1440"
      inkscape:window-height="777"
      inkscape:window-x="32"
@@ -42,12 +42,12 @@
      id="layer2"
      inkscape:label="Layer 2">
     <rect
-       style="fill:#365e58;fill-opacity:1;stroke-width:0.264583"
+       style="fill:#365e58;fill-opacity:1;stroke-width:0.201707"
        id="rect5905"
-       width="44.197968"
-       height="39.864834"
-       x="-4.1229606"
-       y="-3.8577082" />
+       width="32"
+       height="32"
+       x="0"
+       y="0" />
   </g>
   <g
      inkscape:label="Layer 1"

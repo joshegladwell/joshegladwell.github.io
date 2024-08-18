@@ -15,3 +15,4 @@ echo "us-school-shootings opens in new tab"
 # cp -rf assets/after_render_insert/projects/us-school-shootings docs/projects/
 # echo "us-school-shootings added to projects"
 
+cp -a assets/favicons/. docs/

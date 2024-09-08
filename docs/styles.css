@@ -22,7 +22,7 @@
 
 /* Apply reduced margins for figures (but only target div)
 so caption is excluded */
-div#fig-red-tees-desktop > figure.quarto-float-fig > div {
+div#blogplot-red-tees-desktop {
   /* Right now this only targets the red tees graphic.
   Find a way to make this only true for blogs */
   width: 90vw;
@@ -30,7 +30,7 @@ div#fig-red-tees-desktop > figure.quarto-float-fig > div {
   left: calc(-45vw + 50%);
 }
 
-div#fig-red-tees-mobile > figure.quarto-float-fig > div {
+div#blogplot-red-tees-mobile > div {
   /* Right now this only targets the red tees graphic.
   Find a way to make this only true for blogs */
   width: 100vw;
@@ -38,16 +38,16 @@ div#fig-red-tees-mobile > figure.quarto-float-fig > div {
   left: calc(-50vw + 50%);
 }
 
-div#fig-red-tees-mobile {
+div#blogplot-red-tees-mobile {
   display:none;
 }
 
 @media screen and (max-width: 991px) {
-  div#fig-red-tees-desktop {
+  div#blogplot-red-tees-desktop {
      display:none;
   }
 
-  div#fig-red-tees-mobile {
+  div#blogplot-red-tees-mobile {
      display:inline;
   }
 }

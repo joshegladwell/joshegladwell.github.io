@@ -16,7 +16,7 @@ about:
       target: _blank
 ---
 
-I am a data scientist professional from Sacramento, California. In December 2023 I completed my MS in Data Science and Analytics from Georgetown University. As an undergraduate, I attended Brigham Young University and double-majored in Statistics (with an emphasis in data science) and Russian. I chose Russian as one of my majors because I lived in Ukraine for two years as a church missionary immediately after finishing high school. I learned Russian during that time by speaking with strangers on a daily basis, which led to my deep love for the language and for Slavic culture.
+I am a data scientist professional from Sacramento, California. In December 2023, I completed my MS in Data Science and Analytics from Georgetown University. As an undergraduate, I attended Brigham Young University and double-majored in Statistics (with an emphasis in data science) and Russian. I chose Russian as one of my majors because I lived in Ukraine for two years as a church missionary immediately after finishing high school. I learned Russian during that time by speaking with strangers on a daily basis, which led to my deep love for the language and for Slavic culture.
 
 My interest in data science started during my undergraduate education when I attended a university forum featuring Dr. DJ Patil—the former United States Chief Data Scientist under the Obama Administration. His remarks on the power of data to solve social problems in the world inspired me to pursue a career in data science. I am especially interested in this application of data science—addressing social problems through data.
 

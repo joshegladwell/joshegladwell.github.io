@@ -31,8 +31,6 @@ div#blogplot-red-tees-desktop {
 }
 
 div#blogplot-red-tees-mobile > div {
-  /* Right now this only targets the red tees graphic.
-  Find a way to make this only true for blogs */
   width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
